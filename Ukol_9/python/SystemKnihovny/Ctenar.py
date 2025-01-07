@@ -7,11 +7,21 @@ class Ctenar:
         self._prijmeni = prijmeni
         self.cislo_prukazky = self.vygeneruj_cislo_prukazky()
 
-    # doplňte potřebné gettry a settry
+    #geter a seter pro cislo prukazky s kontrolou prazdne hodnoty
+    @property
+    def cislo_prukazky(self):
+        return self.cislo_prukazky
+    
+    @cislo_prukazky.setter
+    def cislo_prukazky(self, a):
+        if not value:
+            raise ValueError("Nesmí být prázdná hodnota")
+        self.cislo_prukazky = a
 
     @staticmethod
     def vygeneruj_cislo_prukazky() -> int:
-        pass
+        return random.randint(1, 100000)
 
+#vypíše informace o čtenářovi
     def __str__(self) -> str:
-        return ""
+        return f"Čtenář {self.jmeno} {self.prijmeni}, číslo průkazky: {self.cislo_prukazky}"
