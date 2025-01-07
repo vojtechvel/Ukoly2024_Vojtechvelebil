@@ -12,7 +12,7 @@ class Kniha:
 # seter s kontrolou prazdné hodnoty a kontrolou správného zadaní hodnoty nové
     @isbn.setter
     def isbn(self, a):
-        if len(a) != 13 or not value.isdigit():
+        if len(a) != 13 or not a.isdigit():
             raise ValueError("nesplnuje požadavky")
         self.isbn = a 
 # vrací veškeré informace o knize
