@@ -14,7 +14,7 @@ class Ctenar:
     
     @cislo_prukazky.setter
     def cislo_prukazky(self, a):
-        if not value:
+        if not a:
             raise ValueError("Nesmí být prázdná hodnota")
         self.cislo_prukazky = a
 
