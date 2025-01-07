@@ -12,7 +12,7 @@ class Kniha:
 # seter s kontrolou prazdné hodnoty a kontrolou správného zadaní hodnoty nové
     @isbn.setter
     def isbn(self, a):
-        if not value:
+        if not a:
             raise ValueError("Nesmí být prázdná hodnota")
         if (a > 999999999999):
             if (a < 10000000000000):
