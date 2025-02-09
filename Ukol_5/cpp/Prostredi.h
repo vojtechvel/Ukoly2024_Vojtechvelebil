@@ -3,6 +3,7 @@
 
 #include "Organismus.h"
 #include <list>
+#include <random>
 using namespace std;
 
 class Prostredi
