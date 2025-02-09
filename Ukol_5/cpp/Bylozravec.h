@@ -1,7 +1,7 @@
 #ifndef BYLOZRAVEC_H
 #define BYLOZRAVEC_H
 
-#include "zvire.h"
+#include "Zvire.h"
 
 class Bylozravec : public Zvire
 {
