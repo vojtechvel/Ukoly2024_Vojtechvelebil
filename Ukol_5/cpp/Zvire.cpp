@@ -1,6 +1,6 @@
 #include <random>
-#include "zvire.h"
-#include "prostredi.h"
+#include "Zvire.h"
+#include "Prostredi.h"
 using namespace std;
 
 void Zvire::pohyb()
