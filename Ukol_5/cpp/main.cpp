@@ -1,10 +1,10 @@
 // main.cpp : Tento soubor obsahuje funkci main. Provádění programu se tam zahajuje a ukončuje.
 //
 
-#include "rostlina.h"
-#include "bylozravec.h"
-#include "masozravec.h"
-#include "prostredi.h"
+#include "Rostlina.h"
+#include "Bylozravec.h"
+#include "Masozravec.h"
+#include "Prostredi.h"
 
 
 int main()
