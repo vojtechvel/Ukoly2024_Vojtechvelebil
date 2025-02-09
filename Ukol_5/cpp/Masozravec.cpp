@@ -1,5 +1,5 @@
-#include "masozravec.h"
-#include "prostredi.h"
+#include "Masozravec.h"
+#include "Prostredi.h"
 #include <random>
 
 void Masozravec::rozmnozovani()
