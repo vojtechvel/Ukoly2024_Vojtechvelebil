@@ -1,5 +1,5 @@
-#include "rostlina.h"
-#include "prostredi.h"
+#include "Rostlina.h"
+#include "Prostredi.h"
 
 void Rostlina::rozmnozovani()
 {
