@@ -1,7 +1,7 @@
 #ifndef ZVIRE_H
 #define ZVIRE_H
 
-#include "organismus.h"
+#include "Organismus.h"
 
 class Zvire : public Organismus
 {
